@@ -4,7 +4,6 @@ require 'pry'
 require_relative 'parser'
 
 token = ENV['TELEGRAM_TOKEN']
-token = '495244493:AAFTtKoLyJCbgpORACNhpbY92LqG0FXXslk'
 
 Parser.get_info('http://www.imdb.com/list/ls072706884/')
 
